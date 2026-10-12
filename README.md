@@ -8,7 +8,7 @@ It has to be said that this is not by any means revolutionary work. There are lo
 
 ## Design
 
-The idea is to leave all ZX Spectrum 48K components as they were and introduce only minimal changes. 
+The idea is to leave all ZX Spectrum 48K components as they were originally designed and introduce only minimal changes. 
 
 The main design decision concerns ULA. You might want to use original chip but it is difficult to get and you need to clone extensive analog video circuit (that occupies one third of the board) still getting relatively poor composite picture. On the other hand, you could use modern FPGA replacement that has RGB output - but this would not be ULA architecture (on the outside) any longer. I decided to use [vLA82S+](https://www.vretrodesign.com/products/vla82s-spectrum-ula-replacement-with-rgb-interface-and-ay-emulator-without-interface) by vRetro Design which is FPGA based ULA with RGB output but also a drop-in replacement for original chip so Sinclair's architecture will be preserved. Other changes are:
 
