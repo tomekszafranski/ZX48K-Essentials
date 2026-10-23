@@ -34,7 +34,7 @@ Everything else is left intact.
   
 * Mini DIN8 connector (as in Harlequin 48K) is used to output RGB signal and mono sound to TV/monitor using [RGB Scart Lead cable](https://www.ebay.com/itm/253830448917?epid=17023035733&itmmeta=01JKTFD61QHFB48BB7ZDRB7SRS&hash=item3b19794715:g:KvwAAOSwlb5nn9B-).
   
-* If you think using bridge rectifier is below you, shorten its pins: 1-4, 2-3 and don’t use it.
+* If you think using bridge rectifier is below you, shorten its pins: 1-4, 2-3 and don’t use it, but remember to use center-positive power supply!
 
 * Be aware that 40 ohm speaker might be difficult to find.
 
