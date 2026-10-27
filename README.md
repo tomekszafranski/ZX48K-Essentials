@@ -50,14 +50,20 @@ Fully assembled ZX48essentials PCB, tested with [Diagnostic ROM](https://blog.re
 
 ## Remarks
 
-* Because power section is severely reduced, only +5V is available on edge connector. Also no video signals are present.
+* Because power section is severely reduced, only +5V (and +9V) are available on edge connector. Also no video signals are present.
   
 * If you intend to put the board in ZX Spectrum 48K case, vLA82S+ must be soldered. For ZX Spectrum 48K+ case you can use socket (standard not precision).
 
 * Geoff Wearmouth's [Looking Glass ROM](https://drive.google.com/file/d/1Mf0jTW43AdGkd5ZbCQTpsrJHTxZ-JjuA/view) is worth checking.
   
 * As a bonus, vLA82S+ has write-only AY-3-8910 compatible sound generator built-in. L and R channels are mixed and output as one to TV/monitor through mini DIN socket. If you connect microSD card interface that often has joystick port, you have everything you need :-)
-  
+
+## Update Oct 2026 (to be)
+
+Following changes has been made:
+* EAR and MIC sockets that were changed are now corrected
+* There are mounting holes for vLA82S+ daughter board (you don't have to solder JST connector and DIN socket but you can use board that comes with ULA)
+* +9V has been added to edge connector
 
 Have fun!
 
