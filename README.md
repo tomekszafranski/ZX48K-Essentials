@@ -50,7 +50,7 @@ Fully assembled ZX48essentials PCB, tested with [Diagnostic ROM](https://blog.re
 
 ## Remarks
 
-* Because power section is severely reduced, only +5V (and +9V) are available on edge connector. Also no video signals are present.
+* Because power section is severely reduced, only +5V (and now +9V) are available on edge connector. Also no video signals are present.
   
 * If you intend to put the board in ZX Spectrum 48K case, vLA82S+ must be soldered. For ZX Spectrum 48K+ case you can use socket (standard not precision).
 
