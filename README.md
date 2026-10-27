@@ -63,7 +63,7 @@ Fully assembled ZX48essentials PCB, tested with [Diagnostic ROM](https://blog.re
 Following changes has been made to PCB (now marked _version 3B_, previous version moved to subfolder):
 * EAR and MIC sockets that were swapped are now in right places - noticed by @PaddyB64
 * There are mounting holes for vLA82S+ video interface (if you have such a version, you don't have to supply and solder JST connector, DIN8 socket and R201-203) - suggested by @PaddyB64
-* +9V that was missing previously has been added to edge connector.
+* +9V that was previously missing has been added to edge connector.
 
 
 Have fun!
