@@ -58,7 +58,7 @@ Fully assembled ZX48essentials PCB, tested with [Diagnostic ROM](https://blog.re
   
 * As a bonus, vLA82S+ has write-only AY-3-8910 compatible sound generator built-in. L and R channels are mixed and output as one to TV/monitor through mini DIN socket. If you connect microSD card interface that often has joystick port, you have everything you need :-)
 
-## Update Oct 2026 (to be)
+## Update Oct 2026
 
 Following changes has been made to PCB (now marked "version 3B", previous version moved to "version 3A" folder):
 * EAR and MIC sockets that were swapped are now in right places
