@@ -61,8 +61,8 @@ Fully assembled ZX48essentials PCB, tested with [Diagnostic ROM](https://blog.re
 ## Update Oct 2026
 
 Following changes has been made to PCB (now marked "version 3B", previous version moved to "version 3A" folder):
-* EAR and MIC sockets that were swapped are now in right places (thanks @PaddyB64)
-* There are mounting holes for vLA82S+ daughter board (you don't have to solder JST connector and DIN8 socket, you can use board that comes with vLA82S+)
+* EAR and MIC sockets that were swapped are now in right places - noticed by PaddyB64
+* There are mounting holes for vLA82S+ daughter board (you don't have to solder JST connector and DIN8 socket, you can use board that comes with vLA82S+) - suggested by PaddyB64
 * +9V that was missing previously has been added to edge connector.
 
 
