@@ -12,8 +12,11 @@ The idea is to leave all ZX Spectrum 48K components as they were originally and 
 
 The main design decision concerns ULA. You might want to use original chip but it is difficult to get and you need to clone extensive analog video circuit (that occupies one third of the board) still getting relatively poor composite picture. On the other hand, you could use modern FPGA replacement that has RGB output - but this would not be ULA architecture (on the outside) any longer. I decided to use [vLA82S+](https://www.vretrodesign.com/products/vla82s-spectrum-ula-replacement-with-rgb-interface-and-ay-emulator-without-interface) by vRetro Design which is FPGA based ULA with RGB output but also a drop-in replacement for original chip so Sinclair's architecture will be preserved. Other changes are:
 * Dynamically refreshed Lower RAM based on 4116 chips is replaced with more convenient static RAM which also allows to get rid of almost all of power supply section as -5V and +12V voltages are no longer needed. This is the solution commonly used in modern [memory replacements modules](https://www.retroleum.co.uk/spectrum-repairs-mods) – using set of flip-flops (74LS574) to hook up single RAM chip to raw/column address multiplexers used in original design.
+  
 * Dynamically refreshed Upper RAM 4132/64 chips use only one voltage, however they could easily be replaced with one 32KB static RAM chip. Memory type selection jumpers are no longer needed.
+  
 * While building your ZX Spectrum you probably will not source (difficult to get) original ROM but instead use modern EEPROM like W27C512 that you program with [content of the ROM](https://speccy4ever.speccy.org/_SIN.htm). ROM type jumpers are no longer needed.
+  
 * In power supply section efficient modern switching regulator is used that doesn't require a radiator. Also (as in MAX/Harlequin) bridge rectifier is added to save from mistakenly connecting power supply with wrong polarity (which from experience is likely to happen if you use more machines because Spectrum uses center-negative power jack while nowadays almost everything is center-positive).
 
 Everything else is left intact.
