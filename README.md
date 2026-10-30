@@ -32,7 +32,7 @@ Everything else is left intact.
 
 * Original audio sockets are replaced with PJ-307 ones, commonly used in retro systems nowadays.
 
-* Mini DIN8 connector (as in Harlequin 48K) is used to output RGB signal and mono sound to TV/monitor using [RGB Scart Lead cable](https://www.ebay.com/itm/253830448917?epid=17023035733&itmmeta=01JKTFD61QHFB48BB7ZDRB7SRS&hash=item3b19794715:g:KvwAAOSwlb5nn9B-).
+* Mini DIN8 connector (as in Harlequin 48K) is used to output RGB signal and mono sound to TV/monitor using [RGB Scart Lead cable](https://www.ebay.com/itm/253830448917?epid=17023035733&itmmeta=01JKTFD61QHFB48BB7ZDRB7SRS&hash=item3b19794715:g:KvwAAOSwlb5nn9B-). Be prepared to solder SMD JST 1mm 8-pin socket for RGB cable from ULA chip.
 
 * If you think using bridge rectifier is below you, shorten its pins: 1-4, 2-3 and don’t use it, but remember to use center-positive power supply!
 
@@ -50,7 +50,7 @@ Fully assembled ZX48essentials PCB, tested with [Diagnostic ROM](https://blog.re
 
 ## Remarks
 
-* Because power section is severely reduced, only +5V and +9V are available on edge connector. Also no video signals are present.
+* Because power section is severely reduced, only +5V and +9V are available on edge connector. Also video signals are not present.
 
 * If you intend to put the board in ZX Spectrum 48K case, vLA82S+ must be soldered. For ZX Spectrum 48K+ case you can use socket (standard not precision).
 
