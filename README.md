@@ -56,7 +56,7 @@ Fully assembled ZX48essentials PCB, tested with [Diagnostic ROM](https://blog.re
 
 * Geoff Wearmouth's [Looking Glass ROM](https://drive.google.com/file/d/1Mf0jTW43AdGkd5ZbCQTpsrJHTxZ-JjuA/view) is worth checking.
 
-* As a bonus, vLA82S+ has write-only AY-3-8910 compatible sound generator built-in. L and R channels are mixed and output as one to TV/monitor through mini DIN socket. If you connect microSD card interface that often has joystick port, you have everything you need :-)
+* As a bonus, vLA82S+ has write-only AY-3-8910 compatible sound generator built-in. L and R channels are mixed and output as one to TV/monitor through mini DIN socket. If you connect microSD card interface that often has joystick port, you have everything you need.
 
 ## Update Oct 2026
 
